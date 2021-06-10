@@ -85,10 +85,9 @@ Using the reviews array above do the following: (no function needed)
   2. log the whole array to the console, make sure the new review is inside of it   
 */
 
-reviews.newFictitious = "";
-
-console.log(reviews);
-
+reviews.push({name:'Raj', rating: 5, feedback:'This project really benefited from your ideas. I am so glad you decided to carve out the time to lend your expertise to this initiative.'})
+ 
+console.log('task4', reviews);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
@@ -133,7 +132,7 @@ Use the getLastReview function below to do the following:
 
 
 function getLastReview(array) {
-  /*Your code here*/
+ return  `${array[7].name} gave the restaurant a ${array[7].rating} star review, and their feedback was: ${array[7].feedback}`
 } 
 
 
